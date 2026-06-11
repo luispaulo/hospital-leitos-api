@@ -20,7 +20,11 @@ Teste técnico desenvolvido em Laravel utilizando SQLite para gerenciamento de o
 
 ## Instalação
 
-### 1. Instalar dependências
+### 1. Instalar dependências - apos clonar o projeto
+
+```bash
+git clone https://github.com/luispaulo/hospital-leitos-api
+```
 
 ```bash
 composer install
@@ -129,7 +133,7 @@ Exemplo de payload:
 ```json
 {
     "cpf": "12345678901",
-    "leito_destino_id": 2
+    "leito_id": 2
 }
 ```
 
